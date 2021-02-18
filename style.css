@@ -1,0 +1,157 @@
+@media only screen and (min-width: 900px) {
+h1{
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 0pc;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  width: 100%
+}
+h1:hoover {
+  color: rgba(255,255,0, 0.5);
+}
+
+.text {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#whole {
+  float: left;
+  width: 55%;
+  margin-top: 10%;
+  margin-left: 3%;
+}
+#ad {
+  width: 40%;
+  line-height: 110%;
+  float: left;
+  margin-right: 2%;
+  margin-top: 25%;
+  margin-bottom: 20%;
+}
+}
+
+#try {
+  width: 15%;
+  float: left;
+  line-height: 110%;
+}
+#half {
+  float: left;
+  width: 40%;
+}
+#slice {
+  float: left;
+  width: 40%;
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+h1{
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 0pc;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  width: 100%
+}
+
+.text {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 45px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#try {
+  width: 25%;
+  margin-left: 15%;
+  width: 80%;
+  line-height: 110%;
+}
+#half {
+  float: left;
+  width: 50%;
+  margin-top: 5%;
+}
+#slice {
+  float: left;
+  width: 50%;
+  margin-top: 5%;
+}
+#whole {
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+#ad {
+  justify-content: center;
+  margin-top: 10%;
+  width: 80%;
+  line-height: 110%;
+  margin-left: 10%;
+}
+}
+
+@media only screen and (max-width: 500px) {
+h1{
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 0pc;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  width: 100%
+}
+
+.text {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#try {
+  width: 25%;
+  margin-left: 15%;
+  width: 80%;
+  line-height: 110%;
+}
+#half {
+  float: left;
+  width: 55%;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+#slice {
+  float: left;
+  width: 55%;
+  margin-left: 20%;
+}
+#whole {
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+#ad {
+  justify-content: center;
+  margin-top: 10%;
+  width: 80%;
+  line-height: 110%;
+  margin-left: 10%;
+}
+}
+
